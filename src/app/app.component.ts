@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'quete8Angular';
+  onomatopoeiaList : string [] = [];
+  onReceiveNewOnomatopia(monono : string){
+this.onomatopoeiaList.push(monono);
+  }
 }
